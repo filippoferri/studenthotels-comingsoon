@@ -9,9 +9,10 @@
 }
 
 body {
-  background: #fafafa;
+  //background: #fafafa;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
+  background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
 }
 
 .hero-unit {
@@ -23,6 +24,8 @@ body {
   background-color: #eee;
   border-radius: 6px;
   padding: 60px;
+  text-align: center;
+
   h1 {
     font-size: 60px;
     line-height: 1;
